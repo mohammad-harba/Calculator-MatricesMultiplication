@@ -1,0 +1,128 @@
+option{
+    text-align: center;
+}
+#selectSize{
+    margin: auto;
+    width: 50%;
+}
+
+#sizeOfMatrix{
+    background-color: coral;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+}
+::placeholder{
+    
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.submit{
+    background-color: darkseagreen;
+    font-size: 20px;
+    font-weight: bolder;
+    width: auto;
+}
+
+.drop{
+    width: 70px;
+    height: 30px;
+    background-color:rgb(228, 84, 84);
+    font-size: 25px;
+    font-weight: bolder ;
+    text-align-last:center;
+    
+}
+/* #drop2{
+    background-color: rgb(32, 141, 32);
+}
+#drop3{
+    background-color: rgb(32, 141, 32);
+} */
+
+#selector{
+    
+        margin: auto;
+        width: 50%;        
+        background-color: cornflowerblue;
+}
+
+#content{
+        margin: auto;
+        width: 50%;
+}
+
+input{
+    width: 150px;
+}
+
+ #tableDiv1{
+    margin: auto;
+    width: 50%;
+    background-color: lightslategrey;
+}
+#tableDiv2{
+    margin: auto;
+    width: 50%;
+    background-color: lightgreen;
+}
+
+#tableDiv3{
+    margin: auto;
+    width: 50%;
+    background-color: darkcyan;
+}
+
+
+
+
+
+
+.inputValue{
+    margin: 0 auto;
+    width: 70px;
+    background-color:rgb(236, 167, 81);
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;   
+    
+}
+
+p{
+    margin: 1px;
+}
+
+#calculate{
+    margin: auto;
+    width: 50%;
+}
+
+#calulateResult{
+    margin-left: 130px;
+    width: 240px;
+    font-size: 40px;
+    font-weight: bolder;
+    background-color: red;
+    padding: 20px;
+}
+
+
+.rows3{
+    width: 70px;
+    padding: 5px;
+    text-align: center;
+
+    font-size: 30px;
+    font-weight: bolder;
+    background-color:rgb(209, 71, 71);
+    border:2px;
+    border-color: black;
+    border-style: solid;
+
+
+}
+
+
+
+

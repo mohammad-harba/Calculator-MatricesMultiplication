@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <style>
+        
+        .clickMe{
+            width: 80px;
+            height: 60px;
+        }
+
+        #calc{
+            width: 340px;
+            height: 200px;
+        }
+        #result{
+            width: 332px;
+            height: 60px;
+
+        }
+        #temporaryValue{
+            font-size: 60px;
+            background-color: black;
+            color: rgb(9, 192, 9);
+            width:332px ;
+            height: 60px;
+
+        }
+        ::placeholder{
+            color: rgb(9, 192, 9);
+        }
+        
+        
+        </style>
+            
+    </head>
+
+
+
+    
+
+    <body>
+
+        
+
+        <div id="calc">
+
+            <input type="text" id="temporaryValue" placeholder="0">
+
+            <button  class="clickMe" type="button" value="7" onclick="doFunction(this);">7</button>
+            <button  class="clickMe" type="button" value="8" onclick="doFunction(this);">8</button>
+            <button  class="clickMe" type="button" value="9" onclick="doFunction(this);">9</button>
+            <button  class="clickMe" type="button" value="/" onclick="doFunction(this);">/</button>
+            <button  class="clickMe" type="button" value="4" onclick="doFunction(this);">4</button>
+            <button  class="clickMe" type="button" value="5" onclick="doFunction(this);">5</button>
+            <button  class="clickMe" type="button" value="6" onclick="doFunction(this);">6</button>
+            <button  class="clickMe" type="button" value="*" onclick="doFunction(this);">*</button>
+            <button  class="clickMe" type="button" value="1" onclick="doFunction(this);">1</button>
+            <button  class="clickMe" type="button" value="2" onclick="doFunction(this);">2</button>
+            <button  class="clickMe" type="button" value="3" onclick="doFunction(this);">3</button>
+            <button  class="clickMe" type="button" value="-" onclick="doFunction(this);">-</button>
+            <button  class="clickMe" type="button" value="0" onclick="doFunction(this);">0</button>
+            <button  class="clickMe" type="button" value="." onclick="doFunction(this);">.</button>
+            <button  class="clickMe" type="button" value="%" onclick="doFunction(this);">%</button>
+            <button  class="clickMe" type="button" value="+" onclick="doFunction(this);">+</button>
+            <button   id="result" type="button" value="=" onclick="doFunction(this);">=</button>
+            <button   id="result" type="button" value="C" onclick="doFunction(this);">Clear</button>
+            <output></output>
+
+            
+               
+               
+                
+
+        </div>
+
+           
+
+   
+
+        
+        <script src="calculator.js" type="text/javascript"></script>
+        
+    </body>
+
+    
+
+</html>
